@@ -1,5 +1,3 @@
-
-
 def dive(zxy, stop)
   2.times {|dx|
     2.times {|dy|
