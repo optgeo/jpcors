@@ -7,5 +7,5 @@ generate:
 pmtiles:
 	tippecanoe -o docs/jpcors.pmtiles -f -l cors \
 	--minimum-zoom=$(MINZOOM) --maximum-zoom=$(MAXZOOM) \
-	--base-zoom=$(MAXZOOM) tmp.geojsons
+	--base-zoom=$(MINZOOM) tmp.geojsons
 
